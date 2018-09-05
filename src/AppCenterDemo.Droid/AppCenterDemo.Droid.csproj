@@ -121,10 +121,6 @@
       <Project>{1B08FCD8-4513-4799-AA07-3AFE7F8C166E}</Project>
       <Name>AppCenterDemo</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AppCenterDemo\AppCenterDemo.csproj">
-      <Project>{1B08FCD8-4513-4799-AA07-3AFE7F8C166E}</Project>
-      <Name>AppCenterDemo</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MobileBuildToolsTargets)" Condition="Exists('$(MobileBuildToolsTargets)')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
